@@ -173,6 +173,6 @@ saveGIF(
     par(mar = c(0,0,0,0))
     plot(result$timeseries[[i]], grid = FALSE, cols = color, ani = TRUE)
   }
-  , movie.name = "facilitation_test.gif", img.name = "grid", convert = "convert", interval = 0.01/1,
+  , movie.name = "facilitation.gif", img.name = "grid", convert = "convert", interval = 0.01/1,
   cmd.fun = system, clean = TRUE, ani.width = width, ani.height = height, outdir = getwd())
 
